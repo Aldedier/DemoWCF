@@ -26,6 +26,7 @@ namespace ClienteWCF
                 double suma = operacion.Suma(num1,num2);
                 Console.Write("La suma es:");
                 Console.WriteLine(suma);
+
             }
 
             Console.ReadKey();
