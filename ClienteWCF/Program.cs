@@ -10,6 +10,7 @@ namespace ClienteWCF
     {
         static void Main(string[] args)
         {
+
             using (Proxy.Service1Client service = new Proxy.Service1Client())
             {
                 Console.WriteLine("Ingrese un numero para consumir el servicio");
